@@ -1,0 +1,162 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>CIT - Class for CSS Selectors</title>
+
+            <link rel="stylesheet" href="customstyles.css" type="text/css" />
+        </head>
+        <body>
+            <header>
+                <img src="https://s0.2mdn.net/simgad/18297862231775030631" alt="Logo" />
+
+                <nav>
+                    <ul>
+    <li><a href="http://www.google.com">HOME</a></li>
+
+    <li><a href="http://www.google.com">ABOUT US</a></li>
+
+    <li><a href="http://www.google.com">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </header>
+           <section id="decendant">
+            <article class="main-div" style="color: aqua">
+                    <h2>Title</h2>
+                <img src="https://s0.2mdn.net/simgad/18297862231775030631" alt="Logo" >
+                <p> 
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+
+               </article>
+               <aside id="aside-1">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+               </aside>
+            </section>
+            <section id="direct-child">
+
+                <h2>Direct Child Selector</h2>
+
+    <p>The direct child selector (>) selects all elements that are the children of a specified element.</p>
+
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+      <section>
+        <!-- not Child but Descendant -->
+        <p>Paragraph 3 in the div (inside a section element).</p>
+      </section>
+      <p>Paragraph 4 in the div.</p>
+    </div>
+
+    <p>Paragraph 5. Not in a div.</p>
+    <p>Paragraph 6. Not in a div.</p>
+
+
+            </section>
+
+            <section id="general-sibling">
+                <h2>General Sibling Selector</h2>
+
+    <p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+    <p>Paragraph 1.</p>
+
+    <div>
+      <p>Paragraph 2.</p>
+    </div>
+
+    <p>Paragraph 3.</p>
+    <code>Some code.</code>
+    <p>Paragraph 4.</p>
+            </section>
+
+           <section id="adjacent-sibling">
+           <h2>Adjacent Sibling Selector</h2>
+
+    <p>The + selector is used to select an element that is directly after another specific element.</p>
+    <p>The following example selects the first p element that are placed immediately after div elements:</p>
+
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+    </div>
+
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
+
+    <div>
+      <p>Paragraph 5 in the div.</p>
+      <p>Paragraph 6 in the div.</p>
+    </div>
+
+    <p>Paragraph 7. After a div.</p>
+    <p>Paragraph 8. After a div.</p>
+
+           </section>
+
+            <section id="or-selector">
+
+                <h2>or Selector</h2>
+
+    <p>A comma-separated (,) list of selectors represents the union of all elements selected by each of the individual selectors in the list.</p>
+    <p>The following example selects the div, p elements on the page</p>
+
+    <div>
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+    </div>
+
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
+
+    <div>
+      <p>Paragraph 5 in the div.</p>
+      <p>Paragraph 6 in the div.</p>
+    </div>
+
+    <p>Paragraph 7. After a div.</p>
+    <p>Paragraph 8. After a div.</p>
+
+     <h2>Heading-1 in or selector section, sibling of DIV</h2>
+     <h3>Heading-1 in or selector section, sibling of DIV</h3>
+     <h4>Added a New Heading</h4>
+            </section>
+
+            <section id="and-selector">
+
+                <h2>and Selector</h2>
+
+    <p>A tag with fullstop (.) list of selectors represents the intersection of all elements selected by each of the individual selectors in the list.</p>
+    <p>The following example selects the div, p elements on the page</p>
+
+    <div class="test">
+      <p>Paragraph 1 in the div.</p>
+      <p>Paragraph 2 in the div.</p>
+    </div>
+
+    <p>Paragraph 3. After a div.</p>
+    <p>Paragraph 4. After a div.</p>
+
+    <div id="testing">
+      <p>Paragraph 5 in the div.</p>
+      <p>Paragraph 6 in the div.</p>
+    </div>
+
+    <p>Paragraph 7. After a div.</p>
+    <p>Paragraph 8. After a div.</p>
+
+     <h2>Heading-1 in and selector section, sibling of DIV</h2>
+     <h3>Heading-1 in and selector section, sibling of DIV</h3>
+
+
+            </section>
+        </body>
+    </html>
+
+
+
+

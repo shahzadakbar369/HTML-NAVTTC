@@ -1,0 +1,115 @@
+/*
+*{
+    color: ;
+    background-color:;
+}
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+header{
+    background-color: aqua;
+}
+
+img{
+    width: 50px;
+}
+
+.main-div{
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+#section-1{}
+
+#aside-1{
+    background-color: darkorange;
+}
+
+ 
+header nav{
+    background-color: red;
+    width: 50%;
+    float: right;
+}
+
+header nav ul{
+    width: 70%;
+    background-color: yellow
+}
+
+header nav ul li{
+    float: left;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px 15px;
+    list-style: none;
+}
+
+header nav ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: green;
+    border: 2px solid red;
+}
+
+
+
+
+
+
+header nav ul li a{}
+#direct-child div > p{
+    background-color: aqua;
+    color: red;
+    font-size: 25px;
+}
+
+#general-sibling div ~ p{
+    background-color: yellow;
+    color: red;
+    font-size: 30px;
+}
+
+#adjacent-sibling div + p{
+    background-color: yellow;
+    color: #000;
+    font-size: 30px;
+}
+
+#or-selector p, h3, h4{
+    font-family: fantasy;
+    color: green;
+    text-align: center;
+}
+
+#or-selector h2{
+        color: red;
+}
+
+#and-selector div.test{
+    background-color: darkblue;
+    color: #fff;
+}
+
+#and-selector div#testing{
+    background-color: red;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

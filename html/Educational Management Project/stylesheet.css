@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+
+.header-1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#user-icon{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: 0;
+}
+
+
+
+#logo-image{
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left:0px;
+
+}
+
+.heading-one{
+   
+   text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-navbar{
+    margin-bottom: 50px;
+    width: 60%;
+    margin-left: auto;
+    background-color: aqua;
+    float: right;
+    
+    }
+
+
+.unordered-listing{
+    list-style: none;
+    }
+   
+
+.list-item{
+    display: inline;
+/*    float: left;*/
+    
+    margin: 0;
+    padding: 10px;
+    
+ }
+.menu-design{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+

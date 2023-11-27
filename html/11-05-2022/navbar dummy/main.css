@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.lo-go{
+    height: 100px;
+    width: 100px;
+}
+
+.contact-info{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.us-er{
+    height: 30px;
+    width: 30px
+}
+
+.top-nav{margin: 0 auto 0 auto;
+ }
+
+
+nav ul{
+    list-style: none;
+    }
+   
+
+nav ul li{
+    display: inline;
+/*    float: left;*/
+    border right: 1px solid #fff;
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+ }
+    
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    margin: 0 auto 0 auto;
+ 
+}
+
+
